@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build docker image') {
             steps {
-                sh 'docker build -t tomerspol/falsk-app .'
+                sh 'docker build -t tomerspol/flask-app .'
             }
         }
         stage('Test') {
